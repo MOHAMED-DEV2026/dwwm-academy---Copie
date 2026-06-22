@@ -46,7 +46,7 @@
 
 <script setup>
 import { computed } from 'vue'
-import { useRoute } from 'vue-router'
+import { RouterLink, useRoute } from 'vue-router'
 import { useFormationStore } from '../stores/formationStore'
 
 const route = useRoute()

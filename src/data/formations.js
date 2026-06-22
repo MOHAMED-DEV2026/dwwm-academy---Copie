@@ -1,4 +1,6 @@
-﻿export const formations = [
+﻿const base = import.meta.env.BASE_URL || '/'
+
+export const formations = [
   {
     id: 1,
     titre: "Développeur Web et Web Mobile",
@@ -6,7 +8,7 @@
     duree: "8 mois",
     niveau: "Débutant",
     prix: 4500,
-    image: "/images/formation-web.png"
+    image: base + 'images/formation-web.png'
   },
   {
     id: 2,
@@ -15,7 +17,7 @@
     duree: "12 mois",
     niveau: "Intermédiaire",
     prix: 6500,
-    image: "/images/formation-fullstack.svg"
+    image: base + 'images/formation-fullstack.svg'
   },
   {
     id: 3,
@@ -24,7 +26,7 @@
     duree: "6 mois",
     niveau: "Débutant",
     prix: 3000,
-    image: "/images/formation-ui.svg"
+    image: base + 'images/formation-ui.svg'
   },
   {
     id: 4,
@@ -33,7 +35,7 @@
     duree: "4 mois",
     niveau: "Débutant",
     prix: 2500,
-    image: "/images/formation-social.svg"
+    image: base + 'images/formation-social.svg'
   },
   {
     id: 5,
@@ -42,7 +44,7 @@
     duree: "5 mois",
     niveau: "Débutant",
     prix: 2800,
-    image: "/images/formation-marketing.svg"
+    image: base + 'images/formation-marketing.svg'
   },
   {
     id: 6,
@@ -51,7 +53,7 @@
     duree: "7 mois",
     niveau: "Intermédiaire",
     prix: 4200,
-    image: "/images/formation-frontend.svg"
+    image: base + 'images/formation-frontend.svg'
   },
   {
     id: 7,
@@ -60,7 +62,7 @@
     duree: "7 mois",
     niveau: "Intermédiaire",
     prix: 4300,
-    image: "/images/formation-backend.svg"
+    image: base + 'images/formation-backend.svg'
   },
   {
     id: 8,
@@ -69,6 +71,6 @@
     duree: "8 mois",
     niveau: "Avancé",
     prix: 5000,
-    image: "/images/formation-data.svg"
+    image: base + 'images/formation-data.svg'
   }
 ]
