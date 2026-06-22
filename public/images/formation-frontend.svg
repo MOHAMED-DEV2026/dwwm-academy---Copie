@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="#0dcaf0"/>
+  <text x="50%" y="45%" fill="#082d61" font-size="28" font-weight="700" text-anchor="middle" font-family="Segoe UI, sans-serif">Front-End</text>
+  <text x="50%" y="65%" fill="#d3f4fd" font-size="18" text-anchor="middle" font-family="Segoe UI, sans-serif">Vue.js & intégration</text>
+</svg>
