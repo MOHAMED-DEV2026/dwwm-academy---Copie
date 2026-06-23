@@ -35,6 +35,7 @@
 </template>
 
 <script setup>
+import { RouterLink } from 'vue-router'
 import { useFormationStore } from '../stores/formationStore'
 
 const store = useFormationStore()

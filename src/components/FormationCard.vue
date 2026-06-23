@@ -32,6 +32,7 @@
 
 <script setup>
 import { ref, watch } from 'vue'
+import { RouterLink } from 'vue-router'
 
 const props = defineProps({
   formation: {

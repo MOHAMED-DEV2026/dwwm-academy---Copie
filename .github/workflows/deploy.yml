@@ -15,12 +15,10 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-
   build:
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Récupérer le code
         uses: actions/checkout@v4
 
@@ -57,7 +55,6 @@ jobs:
       id-token: write
 
     steps:
-
       - name: Déployer
         id: deployment
         uses: actions/deploy-pages@v4
