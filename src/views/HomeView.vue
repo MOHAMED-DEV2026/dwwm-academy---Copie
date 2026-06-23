@@ -5,7 +5,7 @@
   >
     <div class="home-hero-content">
       <p class="hero-kicker">Formation numerique a Mayotte</p>
-      <h1>DWWM Academy</h1>
+      <h1>ALOALO-Mayotte Competence</h1>
       <p class="hero-lead">
         Developpez vos competences web avec des parcours concrets, progressifs
         et penses pour l'insertion professionnelle.
