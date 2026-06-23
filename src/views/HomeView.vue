@@ -104,7 +104,7 @@
 
 <script setup>
 import { RouterLink } from 'vue-router'
-import heroImage from '@/assets/css/images/hero.jpg'
+import heroImage from '../assets/css/images/hero.jpg'
 import FormationCard from '../components/FormationCard.vue'
 import { useFormationStore } from '../stores/formationStore'
 
